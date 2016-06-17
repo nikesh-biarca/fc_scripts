@@ -18,7 +18,7 @@
 # limitations under the License.
 
 sudo apt-get update
-echo $?
+echo $? 
 sudo apt-get -y -qq install linux-image-extra-$(uname -r) > /dev/null
 echo $?
 sudo apt-get -y -qq install sysfsutils > /dev/null
