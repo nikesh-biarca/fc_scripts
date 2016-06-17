@@ -46,14 +46,6 @@
 FC_NUM=${FC_NUM:-1}
 FC_PCI_VAR_NAME=${FC_PCI_VAR_NAME:-"fc_pci_device"}
 
-FC_PROVIDER=192.168.6.7
-FC_PROVIDER_USER=ubuntu
-FC_PROVIDER_KEY=/home/ubuntu/.ssh/id_rsa
-FC_PROVIDER_RC=/home/ubuntu/keystonerc
-FC_SINGLE_NODE=1
-
-
-
 
 
 echo "Planning to passthrough $FC_NUM pci devices"
